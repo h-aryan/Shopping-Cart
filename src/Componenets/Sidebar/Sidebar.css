@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sidebar {
+    font-family: "Sour Gummy";
+    width: 250px;
+    height: 100vh;
+    background-color: #000000;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    margin: 15px 15px 15px 15px;
+    border-radius: 20px;
+}
+
+.sidebar h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.sidebar ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    margin: 15px 0;
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li:hover {
+    background-color: #333;
+}
+
+.sidebar ul li svg {
+    font-size: 20px;
+}
+
+.link-bottom {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin-top: 200px;
+}
+
+.link-bottom li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    margin: 15px 0;
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.link-bottom li:hover {
+    background-color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
