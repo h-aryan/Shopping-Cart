@@ -21,10 +21,6 @@ function Sidebar() {
           <FontAwesomeIcon icon={faStore} />
           <Link to="/shop">Shop</Link>
         </li>
-        <li>
-          <FontAwesomeIcon icon={faShoppingCart} />
-          <Link to="/cart">Cart</Link>
-        </li>
       </ul>
       <ul className="link-bottom">
         <li>
